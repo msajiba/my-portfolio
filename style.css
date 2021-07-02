@@ -16,6 +16,7 @@ body{
     background-image: url("image/top-banner.png");
     height: 520px;  
     background-repeat: no-repeat;
+    padding-bottom:120px;
   
 }
 
@@ -28,4 +29,61 @@ body{
 .half-width img{
     width: 100%;
 
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, lightsalmon);
+    border-radius: 5px;
+    padding:10px 20px;
+    color: white;
+
+}
+.second-dream{
+
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 520px;
+    padding-bottom:120px
+}
+.third-h2{
+    font-size: 38px;
+    font: weight 100px;;
+}
+.second-third{
+    font-size: 18px;
+    color: orange;
+
+}
+.end-experinces{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    border-radius: 5px;
+}
+.start-experinces{
+    padding-bottom: 100px;
+    height: 520px;
+    background-image: url(image/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position: left;
+}
+#experince-one{
+    border-left: 5px solid;
+    border-image: linear-gradient(tomato, lightsalmon);
+    border-image-slice: 1;
+    background-color: white;
+}
+#experince-two{
+    background-color: white;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue , cyan );
+    border-image-slice: 1;
+  
+}
+#fst{
+    font-size: 32px;
+    font-weight:bold;
+}
+footer p{
+    text-align: center;
 }
