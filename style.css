@@ -1,0 +1,31 @@
+body{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-h{
+    font-size: 50px;
+    font-weight: bold;
+}
+.into-parker{
+    color: orange;
+}
+
+.top-banner{
+
+    background-image: url("image/top-banner.png");
+    height: 520px;  
+    background-repeat: no-repeat;
+  
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+
+}
